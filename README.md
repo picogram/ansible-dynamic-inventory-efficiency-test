@@ -136,3 +136,17 @@ sys     0m0.078s
 * --list, --hostオプションは原則必要
 * _metaトップレベル要素にてホスト変数を定義することで１回のスクリプト呼び出しで済む
 * ホスト変数の定義が不要の場合、_metaオブジェクトのhostvarsは空でもOK
+
+
+
+### 検証環境情報
+
+```
+$ ansible --version
+ansible 2.9.27
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/picogram/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.6/site-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.6.8 (default, Mar 19 2021, 05:13:41) [GCC 8.4.1 20200928 (Red Hat 8.4.1-1)]
+```
